@@ -1,27 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on My New Hugo Site</title>
-    <link>http://localhost:1313/posts/</link>
-    <description>Recent content in Posts on My New Hugo Site</description>
+    <title>生活 on My New Hugo Site</title>
+    <link>http://localhost:1313/categories/%E7%94%9F%E6%B4%BB/</link>
+    <description>Recent content in 生活 on My New Hugo Site</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 03 Jan 2026 17:42:05 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>My Second Blog</title>
-      <link>http://localhost:1313/posts/my-second-blog/</link>
-      <pubDate>Sat, 03 Jan 2026 17:42:05 +0800</pubDate>
-      <guid>http://localhost:1313/posts/my-second-blog/</guid>
-      <description>&lt;p&gt;Welcome to my second blog post! In this post, I will be sharing more insights and updates about my journey in blogging. Stay tuned for more exciting content!&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Hello World</title>
-      <link>http://localhost:1313/posts/hello-world/</link>
-      <pubDate>Mon, 15 Dec 2025 18:10:52 +0800</pubDate>
-      <guid>http://localhost:1313/posts/hello-world/</guid>
-      <description></description>
-    </item>
+    <lastBuildDate>Mon, 20 May 2024 10:00:00 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/%E7%94%9F%E6%B4%BB/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>浅谈“三观”：世界观、人生观与价值观的共鸣</title>
       <link>http://localhost:1313/posts/on-three-views/</link>
