@@ -10,3 +10,8 @@ theme = "ananke"
   
   # 如果你想隐藏每篇文章自带的 "Featured Image" 占位图，可以加上这行（可选）
   # featured_image = ""
+  [params]
+  # ... 原有的代码 ...
+  favicon = ""   # 如果你直接放在 static 根目录叫 favicon.ico，留空通常也可以
+  # 或者更稳妥的方式：如果你放的是 png
+  # custom_favicon = "favicon.png"
