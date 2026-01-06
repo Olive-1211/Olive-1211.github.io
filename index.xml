@@ -6,8 +6,15 @@
     <description>Recent content on Olive 的思考空间</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 03 Jan 2026 17:42:05 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 06 Jan 2026 12:00:00 +0800</lastBuildDate>
     <atom:link href="https://olive-1211.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>关于我</title>
+      <link>https://olive-1211.github.io/about/</link>
+      <pubDate>Tue, 06 Jan 2026 12:00:00 +0800</pubDate>
+      <guid>https://olive-1211.github.io/about/</guid>
+      <description>&lt;p&gt;你好！我是 &lt;strong&gt;Olive&lt;/strong&gt;。&lt;/p&gt;&#xA;&lt;p&gt;很高兴你能来到这里。这是我的个人博客，用于记录和分享我的学习路径与生活思考。&lt;/p&gt;&#xA;&lt;h3 id=&#34;-我也是个技术爱好者&#34;&gt;🛠️ 我也是个技术爱好者&lt;/h3&gt;&#xA;&lt;p&gt;我目前正在探索编程的世界，对以下技术很感兴趣：&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Web 开发&lt;/strong&gt;：正在学习 .NET 和 Hugo 搭建网站&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;GitHub&lt;/strong&gt;：热衷于开源社区&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;思考&lt;/strong&gt;：喜欢探究事物背后的逻辑（比如我的那篇《浅谈三观》）&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;-联系我&#34;&gt;📬 联系我&lt;/h3&gt;&#xA;&lt;p&gt;如果你对我的文章感兴趣，或者想和我交流，欢迎在评论区留言，或者通过 GitHub 关注我。&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;Stay hungry, stay foolish.&amp;rdquo;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;&lt;em&gt;感谢你的阅读，希望能和你一起成长！&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>My Second Blog</title>
       <link>https://olive-1211.github.io/posts/my-second-blog/</link>
