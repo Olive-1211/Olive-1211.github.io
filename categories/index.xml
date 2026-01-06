@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on My New Hugo Site</title>
-    <link>http://localhost:1313/categories/</link>
+    <link>https://example.org/categories/</link>
     <description>Recent content in Categories on My New Hugo Site</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 20 May 2024 10:00:00 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://example.org/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>生活</title>
-      <link>http://localhost:1313/categories/%E7%94%9F%E6%B4%BB/</link>
+      <link>https://example.org/categories/%E7%94%9F%E6%B4%BB/</link>
       <pubDate>Mon, 20 May 2024 10:00:00 +0800</pubDate>
-      <guid>http://localhost:1313/categories/%E7%94%9F%E6%B4%BB/</guid>
+      <guid>https://example.org/categories/%E7%94%9F%E6%B4%BB/</guid>
       <description></description>
     </item>
   </channel>
