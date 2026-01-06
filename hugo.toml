@@ -1,4 +1,12 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseURL = 'https://olive-1211.github.io/'   # 【重要】必须改成你的真实网址，否则样式会乱
+languageCode = 'zh-cn'                      # 设置为中文，网页浏览器能自动识别
+title = 'Olive 的思考空间'                  # 这里的标题会显示在浏览器标签页上
 theme = "ananke"
+
+# 下面是针对 Ananke 主题的个性化设置
+[params]
+  author = "Olive"                          # 设置作者名字
+  description = "分享我的学习、思考与生活"  # 网站描述，对 SEO 友好
+  
+  # 如果你想隐藏每篇文章自带的 "Featured Image" 占位图，可以加上这行（可选）
+  # featured_image = ""
