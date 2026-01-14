@@ -35,7 +35,7 @@ buildFuture = false
   # -----------------------------------------------------------------
   [params.assets]
     favicon = "favicon.ico" # 你的小图标
-
+    disableFingerprinting = true
   # 显示“阅读全文”按钮
   ShowReadMoreButton = true
   
