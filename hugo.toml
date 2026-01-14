@@ -14,7 +14,8 @@ buildFuture = false
   title = "Olive"       # 首页左上角的网站名称
   description = "Stay hungry, stay foolish."
   author = "Olive"
-  
+  comments = true
+
   # -----------------------------------------------------------------
   # 首页配置：这里是 Apple 风格的核心，显示个人简介卡片
   # -----------------------------------------------------------------
