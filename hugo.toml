@@ -1,17 +1,61 @@
-baseURL = 'https://olive-1211.github.io/'   # 【重要】必须改成你的真实网址，否则样式会乱
-languageCode = 'zh-cn'                      # 设置为中文，网页浏览器能自动识别
-title = 'Olive 的思考空间'                  # 这里的标题会显示在浏览器标签页上
-theme = "ananke"
+baseURL = 'https://olive-1211.github.io/'
+languageCode = 'zh-cn'
+title = 'Olive 的思考空间'
+theme = "PaperMod"
 
-# 下面是针对 Ananke 主题的个性化设置
+enableInlineShortcodes = true
+enableEmoji = true
+enableRobotsTXT = true
+buildFuture = false
+
 [params]
-  author = "Olive"                          # 设置作者名字
-  description = "分享我的学习、思考与生活"  # 网站描述，对 SEO 友好
+  defaultTheme = "auto" # 自动跟随系统切换深色/浅色模式
+  env = "production"
+  title = "Olive"       # 首页左上角的网站名称
+  description = "Stay hungry, stay foolish."
+  author = "Olive"
   
-  # 如果你想隐藏每篇文章自带的 "Featured Image" 占位图，可以加上这行（可选）
-  # featured_image = ""
-  [params]
-  # ... 原有的代码 ...
-  favicon = "favicon.ico"   # 如果你直接放在 static 根目录叫 favicon.ico，留空通常也可以
-  # 或者更稳妥的方式：如果你放的是 png
-  # custom_favicon = "favicon.png"
+  # -----------------------------------------------------------------
+  # 首页配置：这里是 Apple 风格的核心，显示个人简介卡片
+  # -----------------------------------------------------------------
+  [params.homeInfoParams]
+    Title = "Hi there 👋"
+    Content = "我是 Olive。这里是我的数字花园，记录技术学习、生活思考与世界观的构建。"
+
+  # 首页显示的社交图标
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/olive-1211"
+  [[params.socialIcons]]
+    name = "email"
+    url = "mailto:你的邮箱@example.com" # 记得改成你的真实邮箱
+
+  # -----------------------------------------------------------------
+  # 界面细节设置
+  # -----------------------------------------------------------------
+  [params.assets]
+    favicon = "favicon.ico" # 你的小图标
+
+  # 显示“阅读全文”按钮
+  ShowReadMoreButton = true
+  
+  # 在文章顶部显示预计阅读时间
+  ShowReadingTime = true
+  
+  # 启用评论功能开关
+  comments = true 
+
+# -----------------------------------------------------------------
+# 顶部导航菜单
+# -----------------------------------------------------------------
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    name = "文章"
+    url = "/posts/"
+    weight = 10
+  [[menu.main]]
+    identifier = "about"
+    name = "关于"
+    url = "/about/"
+    weight = 20
