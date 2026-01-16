@@ -2,6 +2,11 @@ baseURL = 'https://olive-1211.github.io/'
 languageCode = 'zh-cn'
 title = 'Olive 的思考空间'
 theme = "PaperMod"
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+pygmentsUseClasses = true
+pygmentsCodeFences = true
+pygmentsStyle = "monokai"  # 或者 "dracula", "github"
 
 enableInlineShortcodes = true
 enableEmoji = true
@@ -15,6 +20,8 @@ buildFuture = false
   description = "Stay hungry, stay foolish."
   author = "Olive"
   comments = true
+  ShowToc = true          # 显示目录
+  TocOpen = true          # 默认展开目录
 
   # -----------------------------------------------------------------
   # 首页配置：这里是 Apple 风格的核心，显示个人简介卡片
@@ -60,3 +67,13 @@ buildFuture = false
     name = "关于"
     url = "/about/"
     weight = 20
+  [[menu.main]]
+  identifier = "search"
+  name = "🔍 搜索"
+  url = "/search/"
+  weight = 30
+  [[menu.main]]
+  identifier = "archives"
+  name = "⏱️ 时间轴"
+  url = "/archives/"
+  weight = 40

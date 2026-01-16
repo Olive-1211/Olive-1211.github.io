@@ -20,4 +20,4 @@ git push origin main
 Write-Host "正在发布到 gh-pages..." -ForegroundColor Green
 git subtree push --prefix public origin gh-pages
 
-Write-Host "发布完成！🎉" -ForegroundColor Cyan
+Write-Host "Success!" -ForegroundColor Cyan
